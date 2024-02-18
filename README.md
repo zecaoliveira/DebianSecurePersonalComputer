@@ -10,7 +10,15 @@ Source:
 
 Phases:
 
-- Change the file name using the command below:
-
+1 - Clone this repository.
+2 - Install unbound on Debian.
+    ```bash
+    sudo apt install unbound -y
+    ```
+3 - Change the file name using the command below and add it to the /etc/unbound directory:
+4 - Change the file name using the command below:
+```bash
 # mv unbound-root-auto-trust-anchor-file.conf root-auto-trust-anchor-file.conf
 # cp -p -R root-auto-trust-anchor-file.conf /etc/unbound/unbound.conf.d  
+```
+
