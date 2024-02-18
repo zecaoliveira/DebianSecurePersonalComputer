@@ -17,7 +17,7 @@ Phases:
 2 - Install unbound on Debian.
 
 ```bash
-sudo apt install unbound -y
+$ sudo apt install unbound -y
 ```
 
 3 - Change the file name using the command below and add it to the /etc/unbound directory:
@@ -33,12 +33,12 @@ sudo apt install unbound -y
 ```
 5 - Install the dnsutils package to have testing tools:
 ```bash
-# apt install dnsutils
+$ sudo apt install dnsutils
 ```
 6 - Result:
 
 ```bash
-# host google.com 127.0.0.1
+$ host google.com 127.0.0.1
 
 Using domain server:
 Name: 127.0.0.1
